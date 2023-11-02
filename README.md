@@ -25,6 +25,8 @@ dataset = data.frame(
 # 4  4  20     B
 # 5  5  59     A
 # 6  6  60     A
+
+z.value = wilcox.z("age","group",dataset)
 ```
 
 ## Credits
