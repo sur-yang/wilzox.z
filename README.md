@@ -6,7 +6,7 @@ This R package performs the Wilcoxon rank sum test for comparing two independent
 
 It assumes that n1 ≤ n2, where n1 and n2 are the sample sizes. If n1 or n2-n1 exceed the range of the T table, the normal approximation test is applied, using the Z value correction formula to calculate the Z value. The package can be used to test the null hypothesis that the two samples come from the same population against the alternative hypothesis that they come from different populations with different location parameters. 
 
-The package returns the test z-value.
+The package returns the z-value.
 
 ## Basic usage
 
